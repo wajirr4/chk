@@ -50,7 +50,7 @@ maindb = client.bot['main']
 antidb = redis.Redis(host='redis-13757.c273.us-east-1-2.ec2.cloud.redislabs.com', port=13757, password='hdD4WujQwT8ouE5BD7LVUFuanC0LyBBa')
 
 BOT_USERNAME = 'XteamChkBot'
-loggp = -735069168
+loggp = -5136746907
 waste_cards = [1,2,7,8,9,0]
 banned_bins = open('files/bannedbin.txt', 'r').readlines()
 admins = open('files/admins.txt', 'r').readlines()
