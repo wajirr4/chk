@@ -43,13 +43,13 @@ import bs4
 import json
 
 
-mongourl = 'MONGO_URI'
+mongourl = 'mongodb+srv://vs:tUYncTxdXiaPhMbi@cluster0.3b1bnas.mongodb.net/?retryWrites=true&w=majority'
 client = pymongo.MongoClient(mongourl,serverSelectionTimeoutMS=5000)
 maindb = client.bot['main']
 
-antidb = redis.Redis(host='REDIS_URI', port=REDIS_PASS, password='REDIS_PASS')
+antidb = redis.Redis(host='redis-13757.c273.us-east-1-2.ec2.cloud.redislabs.com', port=13757, password='hdD4WujQwT8ouE5BD7LVUFuanC0LyBBa')
 
-BOT_USERNAME = 'BOT_USERNAME'
+BOT_USERNAME = 'XteamChkBot'
 loggp = -735069168
 waste_cards = [1,2,7,8,9,0]
 banned_bins = open('files/bannedbin.txt', 'r').readlines()
