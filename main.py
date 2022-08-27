@@ -19,7 +19,7 @@ bot = Client(
     'bot',
     api_id= 16596628, #get it from https://my.telegram.org/auth
     api_hash="421764a823ee2dff786d413aea09959f", #get it from https://my.telegram.org/auth
-    bot_token="5459435179:AAEenqW3o1fs3eO8M4Xgs09lRQ_541HUqY0", #get it from @Botfather
+    bot_token="5713549903:AAHBevkxw4XMhdAPUqvQDjS77ENHH5uk4DA", #get it from @Botfather
     plugins=dict(root="plugins"),
     parse_mode="html")
 
