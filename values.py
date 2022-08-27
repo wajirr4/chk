@@ -47,10 +47,10 @@ mongourl = 'mongodb+srv://vs:tUYncTxdXiaPhMbi@cluster0.3b1bnas.mongodb.net/?retr
 client = pymongo.MongoClient(mongourl,serverSelectionTimeoutMS=5000)
 maindb = client.bot['main']
 
-antidb = redis.Redis(host='redis-13757.c273.us-east-1-2.ec2.cloud.redislabs.com', port=13757, password='hdD4WujQwT8ouE5BD7LVUFuanC0LyBBa')
+antidb = redis.Redis(host='redis-13757.c273.us-east-1-2.ec2.cloud.redislabs.com', port= 13757, password='hdD4WujQwT8ouE5BD7LVUFuanC0LyBBa')
 
 BOT_USERNAME = 'XteamChkBot'
-loggp = -5136746907
+loggp = -1001761930779
 waste_cards = [1,2,7,8,9,0]
 banned_bins = open('files/bannedbin.txt', 'r').readlines()
 admins = open('files/admins.txt', 'r').readlines()
